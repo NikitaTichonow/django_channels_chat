@@ -1,7 +1,7 @@
 {% extends 'chat/base.html' %}
 {% block title %} Home {% endblock title %}
 {% block content %}
-    <h1 style="margin-top: 3px;">My Django Chat Home Page</h1>
+    <h1 style="margin-top: 3px;">Django Chat</h1>
     <ul>
         {% for group in groups %}
             <div id="{{ group.uuid }}">
